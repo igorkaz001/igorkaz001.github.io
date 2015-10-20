@@ -1,0 +1,10 @@
+div.title{
+	position:static;
+	border-bottom: 2px black;
+	padding-left:30%;
+}
+
+div.post{
+	position:static;
+	padding-top:10%;
+}

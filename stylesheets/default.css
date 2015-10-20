@@ -1,0 +1,32 @@
+div.header {
+	position: static;
+	border: 3px double black;
+	padding-left: 40%;
+	background-color: #70704D;
+}
+div.bloglist{
+	width:170px;
+	padding 30px;
+	position: relative;
+	left 30px;
+	background-color: #7AA300;
+}
+
+div.footer{
+	position:static;
+	bottom:0;
+	left:0;
+
+a:visited {
+	color: blue;
+	text-decoration: none;
+}
+
+h3 {
+	font-family: Serif;
+}
+
+img {
+	position:static;
+	left: 40%;
+}

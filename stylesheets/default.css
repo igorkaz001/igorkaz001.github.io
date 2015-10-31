@@ -7,15 +7,31 @@ div.header {
 div.bloglist{
 	width:170px;
 	padding 30px;
-	position: relative;
-	left 30px;
+	position: absolute;
+	left 60px;
 	background-color: #7AA300;
+	height: 300px;
+}
+div.image {
+	position: relative;
+	left :60%;
+	
 }
 
-div.footer{
-	position:static;
-	bottom:0;
-	left:0;
+
+footer {
+	position: fixed;
+	bottom: 10%;
+	width: 100%;
+	vertical-align: bottom;
+	text-align: center;
+}
+div.summary {
+	width:100%;
+	position:absolute;
+	bottom:300px;
+	vertical-align: bottom
+}
 
 a:visited {
 	color: blue;
@@ -26,7 +42,3 @@ h3 {
 	font-family: Serif;
 }
 
-img {
-	position:static;
-	left: 40%;
-}

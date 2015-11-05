@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Enumerable-Methods</title>
+<link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+	<link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+</head>
+<body>
+<header>
+<h2> Enumarable Method '.map'</h2>
+</header>
+
+<section>
+
+<p>In this post I will explain the basics of using .map{} with arrays and hashes. It is first important to understand where .map comes from. It is in fact part of Enumerable module, which is a collection of methods that can be used throughout other classes in ruby (such as Hash and Array). Since methods in Enumerable module are part of ruby, programmers do not need to write up those methods and can simply tap into them at will, saving themselves a lot of time. Although .map is very useful method, .each is probably one of the most used ones. By definition .map method returns an object (i.e. an array) populated with results of the .map{} block as the block goes through each element of the original object. This definition sounds very close if not exactly the same as .select class. The main difference is map conducts the operations in its block for every element in the object, while select conducts the operations(or checks for conditionals) in its block for just the elements that return TRUE. Hence it "selects" which elements to modify while .map does all of them no matter what, if an element is false, then map will return false, but will still go through every element. 
+</p>
+<p>
+The correct usage of .map method requires a block which will look something like object.map {|x| print x}. In this example the object could be an array or a hash, x in the pipes is called a block parameter (only exists within the block), which is then followed by the function you want the block to execute, in this example it is to print every value in the object. 
+</p>
+<p>
+It is also important to note that when .map block is executed, it returns a newly built array with the new values. However the old array is still there an unchanged. So if the programmer desires to actually change the original array as the .map block is executed, they can call on .map!{} method. This is essentially a destructive version of the .map method,meaning it will actually alter the original object as opposed to creating a copy of it and returning it. 
+
+
+</p>
+<!-- <div img src=”http://www.google.com/image.jpg” alt=”My Image”/> -->
+</section>
+</body>
+<footer>
+<a href="http://igorkaz001.github.io/">Home</a>
+
+</hmtl>
+
+

@@ -1,3 +1,4 @@
+
 div.header {
 	position: static;
 	border: 3px double black;
@@ -20,11 +21,11 @@ div.image {
 
 
 footer {
-	position: fixed;
-	bottom: 10%;
-	width: 100%;
+	position: absolute;
+	bottom: 0%;
+	width: 80%;
 	vertical-align: bottom;
-	text-align: center;
+	text-align: right;
 }
 div.summary {
 	width:100%;

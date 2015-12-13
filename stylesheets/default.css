@@ -18,14 +18,20 @@ div.image {
 	left :60%;
 	
 }
+div.maintext {
+	padding-top: 100px;
+	text-align: center;
+	
+}
 
 
 footer {
+	padding-top: 100px;
 	position: absolute;
 	bottom: 0%;
 	width: 80%;
 	vertical-align: bottom;
-	text-align: right;
+	text-align: center;
 }
 div.summary {
 	width:100%;
